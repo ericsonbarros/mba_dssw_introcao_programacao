@@ -1,0 +1,5 @@
+print(' '*15 + 'Ola!!')
+product = float(input('Digite o valor do produto selecionado: '))
+discount = float(input('Digite o percentual de desconto: '))
+pay = product - (product * discount/100)
+print('O valor do produto ja aplicado o desconto de {} % e de {} reais'.format(discount, pay))
